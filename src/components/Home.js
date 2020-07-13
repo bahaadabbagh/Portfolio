@@ -11,7 +11,7 @@ export default function portfolio(props) {
       <div>
       <img src={masthead}></img>      </div>
        <div>
-         <h2 className="tezy"> I'm Bahaeddin Dabbagh <br/> I am a <span className="changingContent"></span><br/> </h2>
+         <h2 className="homeMainText"> I'm Bahaeddin Dabbagh <br/> I am a <span className="changingContent"></span><br/> </h2>
          <h3>I'm a seasoned salesman and a digital marketing expert with a passion for prgramming.<br/>
            I'm always working on developing myself and learning something new. <br/>
            {/* I am also very passionate about training on technichal and soft skills */}
