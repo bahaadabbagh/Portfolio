@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+
+.oneCard {
+  margin: 30px 0 30px 0;
+}
+
+.about{
+  margin-top: 14rem;
+} 
+.home{
+    
+  margin-top: 36px;
+  margin-left: 1%;
+}
+
+.homeMainText{
+  font-family: 'century Gothic Medium';
+  font-weight: unset;
+  color: purple;
+}
+span:before{
+  content:'';
+  animation: animate infinite 8s;
+}
+.changingContent{
+  color: red;
+}
+@keyframes animate{
+  0%{
+    content: 'front-end developer';
+  }
+  30%{
+    content: 'digital marketeer ';
+  }
+  70%{
+    content: 'salesman';
+  }
+  100%{
+    content: ' skilled manager';
+  }
+}
+.projectPhoto{
+  margin-top: 5%;
+}
+.projectsH3{
+  font-family: 'century Gothic Medium';
+  font-weight: unset;
+  color: purple;
+  margin-top: 20px;
+}
+.contactCard{
+display:flex;
+justify-content: center;
+margin-top: 30px;
+}
+
+.column{
+  margin-top: 30px;
+}
+.viewList{
+  margin-bottom: 20px;
+}
