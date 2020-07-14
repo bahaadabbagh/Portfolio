@@ -7,7 +7,7 @@ export default function portfolio(props) {
     <div className="home">
       
       <div>
-      <img src={masthead} alt="masthead"></img>      </div>
+      <img src={masthead} alt="masthead" width="70%"></img>      </div>
        <div className="homeAllText">
          <h2 className="homeMainText"> I'm Bahaeddin Dabbagh <br/> I am a <span className="changingContent"></span><br/> </h2>
          <h3>I'm a seasoned salesman and a digital marketing expert with a passion for prgramming.<br/>

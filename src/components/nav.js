@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from 'react'
 import {
   MDBNavbar,
   MDBNavbarBrand,
@@ -9,15 +9,24 @@ import {
   MDBCollapse,
 } from "mdbreact";
 
-const Nav = () => {
-  return (
-
-    <MDBNavbar color="purple" dark expand="md">
+export default class nav extends Component {
+  state = {
+    isOpen: false
+  };
+  
+  toggleCollapse = () => {
+    this.setState({ isOpen: !this.state.isOpen });
+  }
+  
+  render() {
+    return (
+      <div>
+            <MDBNavbar color="purple" dark expand="md">
       <MDBNavbarBrand>
         <strong className="white-text">BAHAEDDIN DABBAGH</strong>
       </MDBNavbarBrand>
-      <MDBNavbarToggler />
-      <MDBCollapse id="navbarCollapse3" navbar>
+      <MDBNavbarToggler onClick={this.toggleCollapse} />
+      <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
         <MDBNavbarNav right>
           <MDBNavItem >
             <MDBNavLink  to="/Portfolio/">Home</MDBNavLink>
@@ -34,7 +43,16 @@ const Nav = () => {
         </MDBNavbarNav>
       </MDBCollapse>
     </MDBNavbar>
-  );
-};
+      </div>
+    )
+  }
+}
 
-export default Nav;
+// const Nav = () => {
+//   return (
+
+
+//   );
+// };
+
+// export default Nav;

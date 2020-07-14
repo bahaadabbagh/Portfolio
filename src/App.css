@@ -18,7 +18,7 @@
   font-weight: unset;
   color: purple;
 }
-span:before{
+.changingContent:before{
   content:'';
   animation: animate infinite 8s;
 }
