@@ -13,10 +13,10 @@ function App(props) {
   return (
     <div className="App">
       <Router>
-        <Route path="/" component={Nav} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/projects" component={Projects} />
+        <Route path="/Portflio/" component={Nav} />
+        <Route path="/Portflio/about" component={About} />
+        <Route path="/Portflio/contact" component={Contact} />
+        <Route path="/Portflio/projects" component={Projects} />
         <Route exact path="/" component={Home} />
       </Router>
     </div>
