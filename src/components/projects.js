@@ -1,6 +1,6 @@
 import React from 'react'
 import Onecard from "./oneCard"
-import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import { MDBContainer, MDBRow } from "mdbreact";
 import projectPhoto from "../images/project.svg"
 export default function projects() {
     return (

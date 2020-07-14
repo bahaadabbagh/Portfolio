@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from "react";
+import React from "react";
 import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol,MDBRow,MDBIcon } from "mdbreact";
 import movieProject from  "../images/movieProject.jpg";
 import madlib from "../images/madlib.jpg";
@@ -17,12 +17,13 @@ export default function OneCard(props) {
     <MDBCardBody>
       <MDBCardTitle>CinemaBox</MDBCardTitle>
       <MDBCardText>
-        Here's a website that fteches an API from TMDB to give you the help you need to pick tonight's movie or search an actor!.
+        Here's a website that fetches an API from TMDB to give you the help you need to pick tonight's movie or search an actor!.<br/>
+        <strong>HTML,CSS,JavaScript,Bootstrap,API</strong>
       </MDBCardText>
       <a href="https://github.com/bahaadabbagh/cinemabox" target="_blank" className="px-2 fa-lg fb-ic">
            <MDBIcon fab icon="github-square" />
       </a>
-      <MDBBtn color="purple" href="https://bahaadabbagh.github.io/cinemabox/"target="_blank">Visi Website</MDBBtn>    </MDBCardBody>
+      <MDBBtn color="purple" href="https://bahaadabbagh.github.io/cinemabox/"target="_blank">Visit Website</MDBBtn>    </MDBCardBody>
   </MDBCard>
   </MDBCol>
   <MDBCol className="oneCard" sm="6">
@@ -31,7 +32,8 @@ export default function OneCard(props) {
     <MDBCardBody>
       <MDBCardTitle>Madlibs</MDBCardTitle>
       <MDBCardText>
-        Madlibs has never been madder with you writing your own story
+        Madlibs has never been madder with you writing your own story<br/>
+        <strong>HTML,CSS,JavaScript</strong>
       </MDBCardText>
       <a href="https://github.com/bahaadabbagh/Madlibs" target="_blank" className="px-2 fa-lg fb-ic">
            <MDBIcon fab icon="github-square" />
@@ -46,7 +48,8 @@ export default function OneCard(props) {
     <MDBCardBody>
       <MDBCardTitle>learnGo</MDBCardTitle>
       <MDBCardText>
-        a todo app I worked on to help organize botcamp student organize their time
+        A to-do app I worked on to help botcamp student organize their time <br/>
+        <strong>CSS,JSX,React,Bootstrap,FireBase</strong>
       </MDBCardText>
       <a href="https://github.com/bahaadabbagh/learnGo/tree/master/public" target="_blank" className="px-2 fa-lg fb-ic">
            <MDBIcon fab icon="github-square" />
@@ -61,9 +64,13 @@ export default function OneCard(props) {
     <MDBCardBody>
       <MDBCardTitle>My Portfolio</MDBCardTitle>
       <MDBCardText>
-        The website you're already on! serving the purpose of showing you who I am 
+        The website you're already on! serving the purpose of showing you who I am <br/>
+        <strong>JSX,React,Bootstrap</strong>
       </MDBCardText>
-      <MDBBtn  color="purple"href="#">Github</MDBBtn>
+      <a href="https://github.com/bahaadabbagh/portfolio" target="_blank" className="px-2 fa-lg fb-ic">
+           <MDBIcon fab icon="github-square" />
+      </a>
+      <MDBBtn  color="purple"href="#">You're Already Here!</MDBBtn>
     </MDBCardBody>
   </MDBCard>
   </MDBCol>

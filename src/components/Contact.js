@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import contcatImg from "../images/contract.svg"
 import {
   MDBBtn,
@@ -12,11 +12,8 @@ import {
   MDBIcon,
 } from "mdbreact";
 import cv from "../BahaeddinDabbaghCV.pdf"
-export default function Contact() {
-  // const clickHandler=()=>{
-  //   <input type="button" value="Show Current PDF!"  size="20" class="newButton"/>
 
-  // }
+export default function Contact() {
   return (
     <MDBRow className="contactCard">
     <MDBCol md="4">
@@ -34,24 +31,24 @@ export default function Contact() {
             <strong>Bahaa Dabbagh</strong>
           </MDBCardTitle>
 
-          <p className="font-weight-bold blue-text">
+          {/* <p className="font-weight-bold blue-text">
             Front-End Web Developer
-          </p>
+          </p> */}
 
           <MDBCardText>
-            Sed ut perspiciatis unde omnis iste natus sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam.{" "}
+            Weather it's for helpful advice or welcomed feedback or to hire me!<br/>
+            Please Don't hesitate to contact me!
           </MDBCardText>
 
           <MDBCol md="12" className="d-flex justify-content-center">
-            <a href="!#" className="px-2 fa-lg li-ic">
+            <a href="https://www.linkedin.com/in/bahaa-dabbagh-107a03101/" target="_blank" className="px-2 fa-lg li-ic">
               <MDBIcon fab icon="linkedin-in"></MDBIcon>
             </a>
 
-            <a href="!#" className="px-2 fa-lg fb-ic">
+            <a href="https://www.facebook.com/bahaa.dabbagh" target="_blank" className="px-2 fa-lg fb-ic">
               <MDBIcon fab icon="facebook-f"></MDBIcon>
             </a>
-            <a href="!#" className="px-2 fa-lg fb-ic">
+            <a href="https://github.com/bahaadabbagh/" target="_blank" className="px-2 fa-lg fb-ic">
             <MDBIcon fab icon="github-square" />
             </a>
           </MDBCol>

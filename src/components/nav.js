@@ -14,7 +14,7 @@ const Nav = () => {
 
     <MDBNavbar color="purple" dark expand="md">
       <MDBNavbarBrand>
-        <strong className="white-text">Bahaa Dabbagh</strong>
+        <strong className="white-text">BAHAEDDIN DABBAGH</strong>
       </MDBNavbarBrand>
       <MDBNavbarToggler />
       <MDBCollapse id="navbarCollapse3" navbar>
@@ -26,7 +26,7 @@ const Nav = () => {
             <MDBNavLink to="/Projects">Front-End Projects</MDBNavLink>
           </MDBNavItem>
           <MDBNavItem>
-            <MDBNavLink to="/about">About</MDBNavLink>
+            <MDBNavLink to="/about">Blog</MDBNavLink>
           </MDBNavItem>
           <MDBNavItem>
             <MDBNavLink to="/contact">Contact</MDBNavLink>
