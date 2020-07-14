@@ -20,8 +20,7 @@ export default class nav extends Component {
   
   render() {
     return (
-      <div>
-            <MDBNavbar color="purple" dark expand="md">
+            <MDBNavbar color="purple" dark expand="md"width="100%">
       <MDBNavbarBrand>
         <strong className="white-text">BAHAEDDIN DABBAGH</strong>
       </MDBNavbarBrand>
@@ -43,16 +42,6 @@ export default class nav extends Component {
         </MDBNavbarNav>
       </MDBCollapse>
     </MDBNavbar>
-      </div>
     )
   }
 }
-
-// const Nav = () => {
-//   return (
-
-
-//   );
-// };
-
-// export default Nav;

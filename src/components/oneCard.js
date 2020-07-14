@@ -12,7 +12,7 @@ export default function OneCard(props) {
             <MDBRow>
 
       <MDBCol className="oneCard" sm="6">
-    <MDBCard style={{ width: "30rem" }}>
+    <MDBCard>
     <MDBCardImage className="img-fluid" src={movieProject} waves />
     <MDBCardBody>
       <MDBCardTitle>CinemaBox</MDBCardTitle>
@@ -27,7 +27,7 @@ export default function OneCard(props) {
   </MDBCard>
   </MDBCol>
   <MDBCol className="oneCard" sm="6">
-    <MDBCard style={{ width: "30rem" }}>
+    <MDBCard>
     <MDBCardImage className="img-fluid" src={madlib} waves />
     <MDBCardBody>
       <MDBCardTitle>Madlibs</MDBCardTitle>
@@ -43,7 +43,7 @@ export default function OneCard(props) {
   </MDBCard>
   </MDBCol>
   <MDBCol className="oneCard" sm="6">
-    <MDBCard style={{ width: "30rem" }}>
+    <MDBCard>
     <MDBCardImage className="img-fluid" src={learngo} waves />
     <MDBCardBody>
       <MDBCardTitle>learnGo</MDBCardTitle>
@@ -59,7 +59,7 @@ export default function OneCard(props) {
   </MDBCard>
   </MDBCol>
   <MDBCol className="oneCard" sm="6">
-    <MDBCard style={{ width: "30rem" }}>
+    <MDBCard>
     <MDBCardImage className="img-fluid" src={portfolioScreenshot} waves />
     <MDBCardBody>
       <MDBCardTitle>My Portfolio</MDBCardTitle>

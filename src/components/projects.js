@@ -4,7 +4,7 @@ import { MDBContainer, MDBRow } from "mdbreact";
 import projectPhoto from "../images/project.svg"
 export default function projects() {
     return (
-        <div className="test">
+        // <div className="test">
              <MDBContainer>
           {" "}
         <img className="projectPhoto" src={projectPhoto}alt="project Photos" width="70%"></img>
@@ -13,6 +13,6 @@ export default function projects() {
           <Onecard/>
           </MDBRow>
     </MDBContainer>
-        </div>
+        // </div>
     )
 }

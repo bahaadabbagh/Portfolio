@@ -49,8 +49,10 @@
   margin-top: 20px;
 
 }
-.test{
-  margin-left: 4%;
+.container{
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 100%;
 
 }
 .contactCard{
