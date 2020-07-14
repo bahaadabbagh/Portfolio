@@ -47,12 +47,18 @@
   font-weight: unset;
   color: purple;
   margin-top: 20px;
+
+}
+.test{
+  margin-left: 4%;
+
 }
 .contactCard{
 display:flex;
 justify-content: center;
 width: 100%;
 margin-top: 30px;
+
 }
 
 .column{

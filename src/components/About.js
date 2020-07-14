@@ -6,7 +6,7 @@ export default class About extends Component {
       <React.Fragment>
 
         <div className="about">
-          <img src={underConstruction} alt='under contruction'></img>
+          <img src={underConstruction} alt='under contruction' width="70%"></img>
           <h1 display="flex" flex="column">
             Working on it
         </h1>
