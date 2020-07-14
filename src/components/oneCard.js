@@ -17,7 +17,7 @@ export default function OneCard(props) {
     <MDBCardBody>
       <MDBCardTitle>CinemaBox</MDBCardTitle>
       <MDBCardText>
-        Here's a website that fetches an API from TMDB to give you the help you need to pick tonight's movie or search an actor!.<br/>
+        Here's a website that fetches an API from TMDB to show you movies or help you search for an actor!.<br/>
         <strong>HTML,CSS,JavaScript,Bootstrap,API</strong>
       </MDBCardText>
       <a href="https://github.com/bahaadabbagh/cinemabox" target="_blank" className="px-2 fa-lg fb-ic">
@@ -32,7 +32,7 @@ export default function OneCard(props) {
     <MDBCardBody>
       <MDBCardTitle>Madlibs</MDBCardTitle>
       <MDBCardText>
-        Madlibs has never been madder with you writing your own story<br/>
+        Madlibs has never been MADDER with you writing your own story<br/>
         <strong>HTML,CSS,JavaScript</strong>
       </MDBCardText>
       <a href="https://github.com/bahaadabbagh/Madlibs" target="_blank" className="px-2 fa-lg fb-ic">
@@ -48,7 +48,7 @@ export default function OneCard(props) {
     <MDBCardBody>
       <MDBCardTitle>learnGo</MDBCardTitle>
       <MDBCardText>
-        A to-do app I worked on to help botcamp student organize their time <br/>
+        A to-do app I worked on to help botcamp students organize their time <br/>
         <strong>CSS,JSX,React,Bootstrap,FireBase</strong>
       </MDBCardText>
       <a href="https://github.com/bahaadabbagh/learnGo/tree/master/public" target="_blank" className="px-2 fa-lg fb-ic">
@@ -64,7 +64,7 @@ export default function OneCard(props) {
     <MDBCardBody>
       <MDBCardTitle>My Portfolio</MDBCardTitle>
       <MDBCardText>
-        The website you're already on! serving the purpose of showing you who I am <br/>
+        The website you're already on! Serving the purpose of showing you who I am <br/>
         <strong>JSX,React,Bootstrap</strong>
       </MDBCardText>
       <a href="https://github.com/bahaadabbagh/portfolio" target="_blank" className="px-2 fa-lg fb-ic">

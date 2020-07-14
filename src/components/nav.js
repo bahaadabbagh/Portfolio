@@ -31,7 +31,7 @@ export default class nav extends Component {
             <MDBNavLink  to="/Portfolio/">Home</MDBNavLink>
           </MDBNavItem>
           <MDBNavItem>
-            <MDBNavLink to="/Portfolio/Projects">Front-End Projects</MDBNavLink>
+            <MDBNavLink to="/Portfolio/projects">Front-End Projects</MDBNavLink>
           </MDBNavItem>
           <MDBNavItem>
             <MDBNavLink to="/Portfolio/about">Blog</MDBNavLink>
