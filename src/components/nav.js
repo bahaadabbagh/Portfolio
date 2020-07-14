@@ -20,16 +20,16 @@ const Nav = () => {
       <MDBCollapse id="navbarCollapse3" navbar>
         <MDBNavbarNav right>
           <MDBNavItem >
-            <MDBNavLink  to="/Portflio/">Home</MDBNavLink>
+            <MDBNavLink  to="/Portfolio/">Home</MDBNavLink>
           </MDBNavItem>
           <MDBNavItem>
-            <MDBNavLink to="/Portflio/Projects">Front-End Projects</MDBNavLink>
+            <MDBNavLink to="/Portfolio/Projects">Front-End Projects</MDBNavLink>
           </MDBNavItem>
           <MDBNavItem>
-            <MDBNavLink to="/Portflio/about">Blog</MDBNavLink>
+            <MDBNavLink to="/Portfolio/about">Blog</MDBNavLink>
           </MDBNavItem>
           <MDBNavItem>
-            <MDBNavLink to="/Portflio/contact">Contact</MDBNavLink>
+            <MDBNavLink to="/Portfolio/contact">Contact</MDBNavLink>
           </MDBNavItem>
         </MDBNavbarNav>
       </MDBCollapse>

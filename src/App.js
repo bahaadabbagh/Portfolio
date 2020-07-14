@@ -13,11 +13,11 @@ function App(props) {
   return (
     <div className="App">
       <Router>
-        <Route path="/Portflio/" component={Nav} />
-        <Route path="/Portflio/about" component={About} />
-        <Route path="/Portflio/contact" component={Contact} />
-        <Route path="/Portflio/projects" component={Projects} />
-        <Route exact path="/" component={Home} />
+        <Route path="/Portfolio/" component={Nav} />
+        <Route path="/Portfolio/about" component={About} />
+        <Route path="/Portfolio/contact" component={Contact} />
+        <Route path="/Portfolio/projects" component={Projects} />
+        <Route exact path="/Portfolio/" component={Home} />
       </Router>
     </div>
   );
