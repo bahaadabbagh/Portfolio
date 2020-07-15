@@ -1,5 +1,5 @@
 import React from "react";
-import contcatImg from "../images/contract.svg"
+import contcatImg from "../images/contract1.svg"
 import {
   MDBBtn,
   MDBCard,

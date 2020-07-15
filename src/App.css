@@ -1,5 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script:wght@700&family=Josefin+Sans&family=Montserrat&display=swap');
 .App {
   text-align: center;
+  /* background-color: slategray; */
 }
 
 
@@ -9,22 +12,41 @@
 }
 
 .home{
-    
   margin-top: 36px;
   margin-left: 1%;
+  /* height: 100%; */
+
 }
 
 .homeMainText{
-  font-family: 'century Gothic Medium';
+  /* font-family: 'century Gothic Medium'; */
   font-weight: unset;
+  margin-bottom: 30px;
+  font-weight: 800;
   color: purple;
+}
+.homeAllText{
+
+  text-align: start;
+  /* font-family: ' sans-serif'; */
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'Josefin Sans', sans-serif; */
+  /* font-family: 'Dancing Script', cursive; */
+  font-family: 'Abel', sans-serif;
+  margin-bottom: 50px;
+  margin-left: 25%;
+
+  /* color: darkblue; */
 }
 .changingContent:before{
   content:'';
-  animation: animate infinite 8s;
+  animation: animate infinite 10s;
 }
 .changingContent{
-  color: red;
+  color: #f55a45;
+  /* color:#FFC300; */
+  /* background-color: black; */
+
 }
 @keyframes animate{
   0%{
@@ -44,17 +66,16 @@
   margin-top: 5%;
 }
 .projectsH3{
-  font-family: 'century Gothic Medium';
+  font-family: 'Abel', sans-serif;
   font-weight: unset;
   color: purple;
-  margin-top: 20px;
+  margin-top: 35px;
 
 }
 .container{
   padding-left: 2%;
   padding-right: 2%;
   width: 100%;
-
 }
 .contactCard{
 display:flex;
@@ -63,7 +84,9 @@ width: 100%;
 margin-top: 30px;
 
 }
-
+.masthead{
+  max-width: 80%;
+}
 .column{
   margin-top: 30px;
 }

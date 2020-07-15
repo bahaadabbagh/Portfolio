@@ -48,7 +48,7 @@ export default function OneCard(props) {
     <MDBCardBody>
       <MDBCardTitle>learnGo</MDBCardTitle>
       <MDBCardText>
-        A to-do app I worked on to help botcamp students organize their time <br/>
+        A to-do app I worked on to help bootcamp students organize their time <br/>
         <strong>CSS,JSX,React,Bootstrap,FireBase</strong>
       </MDBCardText>
       <a href="https://github.com/bahaadabbagh/learnGo/tree/master/public" target="_blank" className="px-2 fa-lg fb-ic">
