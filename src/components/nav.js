@@ -21,8 +21,8 @@ export default class nav extends Component {
   render() {
     return (
             <MDBNavbar color="purple" dark expand="md"width="100%">
-      <MDBNavbarBrand>
-        <strong className="white-text">BAHAEDDIN DABBAGH</strong>
+      <MDBNavbarBrand >
+        <strong className="white-text" className="logo">Bahaeddin Dabbagh</strong>
       </MDBNavbarBrand>
       <MDBNavbarToggler onClick={this.toggleCollapse} />
       <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
@@ -31,7 +31,7 @@ export default class nav extends Component {
             <MDBNavLink  to="/Portfolio/">Home</MDBNavLink>
           </MDBNavItem>
           <MDBNavItem>
-            <MDBNavLink to="/Portfolio/projects">Front-End Projects</MDBNavLink>
+            <MDBNavLink to="/Portfolio/projects">Frontend Projects</MDBNavLink>
           </MDBNavItem>
           <MDBNavItem>
             <MDBNavLink to="/Portfolio/about">Blog</MDBNavLink>

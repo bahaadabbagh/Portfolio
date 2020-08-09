@@ -2,41 +2,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script:wght@700&family=Josefin+Sans&family=Montserrat&display=swap');
 .App {
   text-align: center;
-  /* background-color: slategray; */
 }
-
-
+.col-sm-6{
+  margin: 3% 0;
+}
 .oneCard {
-  margin: 30px 0 30px 0;
-  /* max-width: 22rem; */
+  height: 100%;
 }
 
 .home{
   margin-top: 36px;
   margin-left: 1%;
-  /* height: 100%; */
-
+}
+.cardButtons{
+display: flex;
+justify-content: center;
 }
 
 .homeMainText{
-  /* font-family: 'century Gothic Medium'; */
   font-weight: unset;
   margin-bottom: 30px;
   font-weight: 800;
   color: purple;
 }
 .homeAllText{
-
   text-align: start;
-  /* font-family: ' sans-serif'; */
-  /* font-family: 'Montserrat', sans-serif; */
-  /* font-family: 'Josefin Sans', sans-serif; */
-  /* font-family: 'Dancing Script', cursive; */
   font-family: 'Abel', sans-serif;
   margin-bottom: 50px;
   margin-left: 25%;
-
-  /* color: darkblue; */
 }
 .changingContent:before{
   content:'';
@@ -77,6 +70,7 @@
   padding-right: 2%;
   width: 100%;
 }
+
 .contactCard{
 display:flex;
 justify-content: center;
