@@ -9,7 +9,7 @@ export default function About() {
   return (
     <MDBContainer>
       <MDBRow className="aboutRow">
-        <h1>Mechanical Engineering Graduate That Mastered Many Trades</h1>
+        <h1>Jack Of All Trades, Master of ALL!</h1>
       </MDBRow>
       <MDBRow className="aboutRow">
         <MDBCol md="5">
