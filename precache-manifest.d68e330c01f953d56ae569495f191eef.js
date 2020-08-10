@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c00e23833117f43a6030e99a8d3a6df3",
+    "revision": "f8c2fdfad49cb8e7464dfc980323148b",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "c83792422f0dcfd12d78",
+    "revision": "771f6f5d0efd134f0379",
     "url": "/Portfolio/static/css/2.7e009a7e.chunk.css"
   },
   {
-    "revision": "314b8fd1e5e6661fbc56",
-    "url": "/Portfolio/static/css/main.11574d14.chunk.css"
+    "revision": "3db21fd64d1093eff488",
+    "url": "/Portfolio/static/css/main.b14df058.chunk.css"
   },
   {
-    "revision": "c83792422f0dcfd12d78",
-    "url": "/Portfolio/static/js/2.4c9d1456.chunk.js"
+    "revision": "771f6f5d0efd134f0379",
+    "url": "/Portfolio/static/js/2.7f6e7ee3.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/Portfolio/static/js/2.4c9d1456.chunk.js.LICENSE.txt"
+    "url": "/Portfolio/static/js/2.7f6e7ee3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "314b8fd1e5e6661fbc56",
-    "url": "/Portfolio/static/js/main.177f64be.chunk.js"
+    "revision": "3db21fd64d1093eff488",
+    "url": "/Portfolio/static/js/main.ec694ff2.chunk.js"
   },
   {
     "revision": "bbf9f513ca94ccde67a9",
     "url": "/Portfolio/static/js/runtime-main.88d4256f.js"
+  },
+  {
+    "revision": "1592d57da858d9fbbe220521ad1a1c6a",
+    "url": "/Portfolio/static/media/ATO.1592d57d.jpg"
   },
   {
     "revision": "ce61f160db6b565975729510fe607e2d",
@@ -42,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b6b7bb69527c8b3c5ddb5ed307ef2126",
     "url": "/Portfolio/static/media/contract1.b6b7bb69.svg"
+  },
+  {
+    "revision": "02470dbc6d12dbbcb17ef28aacd9bb39",
+    "url": "/Portfolio/static/media/developer.02470dbc.svg"
   },
   {
     "revision": "0cb5a5c0d251c109458c85c6afeffbaa",
@@ -112,12 +120,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/madlib.329000df.jpg"
   },
   {
+    "revision": "4258d1a1a4a712495697e670f6924135",
+    "url": "/Portfolio/static/media/management.4258d1a1.svg"
+  },
+  {
+    "revision": "474db80acf75aa7db7064a8875392a12",
+    "url": "/Portfolio/static/media/marketing.474db80a.svg"
+  },
+  {
     "revision": "6713149658e263f34313dfe540527e92",
     "url": "/Portfolio/static/media/movieProject.67131496.jpg"
   },
   {
     "revision": "462cc15224031a8f3b5fbc27960cd349",
     "url": "/Portfolio/static/media/portfolio.462cc152.jpg"
+  },
+  {
+    "revision": "ed65039e8ce02792a17dce6b158e8c10",
+    "url": "/Portfolio/static/media/sales.ed65039e.svg"
   },
   {
     "revision": "b59f4e7b6c60d07b8ae8b80437f445bb",
