@@ -14,6 +14,9 @@
   margin-top: 36px;
   margin-left: 1%;
 }
+.blog{
+  margin-top: 2em;
+}
 .cardButtons{
 display: flex;
 justify-content: center;
@@ -28,8 +31,8 @@ justify-content: center;
 .homeAllText{
   text-align: start;
   font-family: 'Abel', sans-serif;
-  margin-bottom: 50px;
-  margin-left: 25%;
+  margin-bottom: 10%;
+  /* margin-left: 25%; */
 }
 .changingContent:before{
   content:'';
@@ -69,6 +72,8 @@ justify-content: center;
   padding-left: 2%;
   padding-right: 2%;
   width: 100%;
+  /* background-image: url(./images/test4.svg); */
+
 }
 
 .contactCard{
@@ -79,11 +84,13 @@ margin-top: 30px;
 
 }
 .masthead{
-  max-width: 80%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
 }
 .column{
-  margin-top: 30px;
+  margin-top: 10%;
 }
-.viewList{
-  margin-bottom: 20px;
+.aboutRow{
+  margin: 3em 0;
 }

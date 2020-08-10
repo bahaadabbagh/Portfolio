@@ -1,10 +1,12 @@
 import React from "react";
+import {MDBContainer, MDBCol} from "mdbreact"
 import masthead from "../images/test4.svg";
 
 export default function portfolio(props) {
   return (
+    <MDBContainer>
     <div className="home">
-      <div className="homeAllText">
+      <MDBCol className="homeAllText" md="12">
         <h1 className="homeMainText">
           {" "}
           I'm Bahaa, I'm a <span className="changingContent"></span>
@@ -15,24 +17,16 @@ export default function portfolio(props) {
           for programming.
           <br />
           <br />
-          I'm always working on developing myself and learning something new.{" "}
+          I'm an excellent team player that is result oriented with a dash of fun!
+          {/* I'm always working on developing myself and learning something new.{" "} */}
           <br />
           {/* I am also very happy when I give training on technichal or soft skills */}
         </h3>
-      </div>
-      <div>
+      </MDBCol>
+      <MDBCol md="12">
         <img src={masthead} alt="masthead" className="masthead"></img>
-      </div>
-      {/* <div className="homeAllText">
-        <ul>
-          {" "}
-          <h3>Digital Marketing</h3>
-          <li>5 years of digital marketing management </li>
-          <li>Trained by Google product trainers</li>
-          <li>Worked on more than 400 accounts</li>
-          <li>More than 500K USD quarterly</li>
-        </ul>
-      </div> */}
+      </MDBCol>
     </div>
+    </MDBContainer>
   );
 }

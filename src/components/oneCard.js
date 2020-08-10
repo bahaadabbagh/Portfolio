@@ -2,6 +2,7 @@ import React from "react";
 import {MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol, MDBRow, MDBIcon, MDBContainer} from "mdbreact";
 import movieProject from "../images/movieProject.jpg";
 import madlib from "../images/madlib.jpg";
+import atoproject from "../images/ATO.jpg"
 import learngo from "../images/learnGo.png";
 import portfolioScreenshot from "../images/portfolio.jpg";
 
@@ -9,22 +10,20 @@ export default function OneCard(props) {
   return (
     <MDBContainer>
       <MDBRow>
-        <MDBCol  sm="6">
+      <MDBCol  sm="6">
           <MDBCard className="oneCard">
-            <MDBCardImage className="img-fluid" src={movieProject} waves />
+            <MDBCardImage className="img-fluid" src={atoproject} waves />
             <MDBCardBody>
-              <MDBCardTitle>CinemaBox</MDBCardTitle>
+              <MDBCardTitle>Account Takeover Pitch</MDBCardTitle>
               <MDBCardText>
-                {/* Here's a website that fetches an API from TMDB to show you
-                movies or help you search for an actor!. */}
-                This project uses the TMDB API to search for movie and actor details.
+                Made this page for a job application in 2 days
                 <br />
                 <br/>
-                <strong>HTML, CSS, JavaScript, Bootstrap, API</strong>
+                <strong>HTML, CSS, React, Bootstrap, API</strong>
               </MDBCardText>
               <div className="cardButtons">
                 <a
-                  href="https://github.com/bahaadabbagh/cinemabox"
+                  href="https://github.com/bahaadabbagh/atoproject"
                   target="_blank"
                   className="px-2 fa-lg fb-ic"
                 >
@@ -32,7 +31,7 @@ export default function OneCard(props) {
                 </a>
                 <MDBBtn
                   color="purple"
-                  href="https://bahaadabbagh.github.io/cinemabox/"
+                  href="https://bahaadabbagh.github.io/atoproject/"
                   target="_blank"
                 >
                   Visit Website
@@ -132,6 +131,38 @@ export default function OneCard(props) {
           </MDBCard>
         </MDBCol>
       </MDBRow>
+      <MDBRow>
+      <MDBCol  sm="6">
+          <MDBCard className="oneCard">
+            <MDBCardImage className="img-fluid" src={movieProject} waves />
+            <MDBCardBody>
+              <MDBCardTitle>CinemaBox</MDBCardTitle>
+              <MDBCardText>
+                This project uses the TMDB API to search for movie and actor details.
+                <br />
+                <br/>
+                <strong>HTML, CSS, JavaScript, Bootstrap, API</strong>
+              </MDBCardText>
+              <div className="cardButtons">
+                <a
+                  href="https://github.com/bahaadabbagh/cinemabox"
+                  target="_blank"
+                  className="px-2 fa-lg fb-ic"
+                >
+                  <MDBIcon fab icon="github-square" size="3x" />
+                </a>
+                <MDBBtn
+                  color="purple"
+                  href="https://bahaadabbagh.github.io/cinemabox/"
+                  target="_blank"
+                >
+                  Visit Website
+                </MDBBtn>
+              </div>
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
+        </MDBRow>
     </MDBContainer>
   );
 }
