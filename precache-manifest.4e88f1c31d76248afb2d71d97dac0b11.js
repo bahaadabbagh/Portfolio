@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "172029c33c6c0c5c34f2318861a99725",
+    "revision": "40a8063016041d3086efef9abdc54a80",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "771f6f5d0efd134f0379",
+    "revision": "4f6626c691e77dc506f1",
     "url": "/Portfolio/static/css/2.7e009a7e.chunk.css"
   },
   {
-    "revision": "ffdc57ebfa954b25d392",
+    "revision": "68a159d9b70d9eda129e",
     "url": "/Portfolio/static/css/main.b14df058.chunk.css"
   },
   {
-    "revision": "771f6f5d0efd134f0379",
-    "url": "/Portfolio/static/js/2.7f6e7ee3.chunk.js"
+    "revision": "4f6626c691e77dc506f1",
+    "url": "/Portfolio/static/js/2.c866655e.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/Portfolio/static/js/2.7f6e7ee3.chunk.js.LICENSE.txt"
+    "url": "/Portfolio/static/js/2.c866655e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ffdc57ebfa954b25d392",
-    "url": "/Portfolio/static/js/main.687cd6c2.chunk.js"
+    "revision": "68a159d9b70d9eda129e",
+    "url": "/Portfolio/static/js/main.b7ccaf87.chunk.js"
   },
   {
     "revision": "bbf9f513ca94ccde67a9",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ce61f160db6b565975729510fe607e2d",
     "url": "/Portfolio/static/media/BahaeddinDabbaghCV.ce61f160.pdf"
+  },
+  {
+    "revision": "2fdbb58545dd6e09fb12a1db293531c3",
+    "url": "/Portfolio/static/media/WWW.2fdbb585.jpg"
   },
   {
     "revision": "11911410dca2de148f30954eb2fd5eab",
