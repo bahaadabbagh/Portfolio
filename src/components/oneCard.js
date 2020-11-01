@@ -154,7 +154,7 @@ export default function OneCard(props) {
             <MDBCardBody>
               <MDBCardTitle>My Portfolio</MDBCardTitle>
               <MDBCardText>
-                The website you're already on! intoriducing you to who I am
+                The website you're already on! introducing you to who I am
                 <br />
                 <br />
                 <strong>JSX, React, Bootstrap</strong>

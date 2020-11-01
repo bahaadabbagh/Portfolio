@@ -54,7 +54,7 @@ export default function About() {
               <h5>Responsive layouts</h5>{" "}
             </li>
             <li>
-              <h5>HTML, CSS, JavaScript, React, Bootstarap</h5>
+              <h5>HTML, CSS, JavaScript, React, Bootstrap</h5>
             </li>
             <li>
               <h5>API and database connections</h5>
@@ -86,7 +86,7 @@ export default function About() {
               <h5>Consultative sales</h5>
             </li>
             <li>
-              <h5>Happy cutomers and happy teams </h5>
+              <h5>Happy customers and happy teams </h5>
             </li>
           </ul>
         </MDBCol>

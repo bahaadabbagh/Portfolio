@@ -11,7 +11,7 @@ import {
   MDBCol,
   MDBIcon,
 } from "mdbreact";
-import cv from "../BahaeddinDabbaghCV.pdf"
+import cv from "../BahaeddinDabbaghResume.pdf"
 
 export default function Contact() {
   return (
@@ -36,7 +36,7 @@ export default function Contact() {
           </p> */}
 
           <MDBCardText>
-            Weather it's for helpful advice or welcomed feedback or to hire me!<br/>
+            Whether it's for helpful advice or welcomed feedback or to hire me.<br/>
             Please Don't hesitate to contact me!
           </MDBCardText>
 
