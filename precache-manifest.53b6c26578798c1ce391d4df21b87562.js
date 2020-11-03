@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b74d262dedc721f24bdca82315422119",
+    "revision": "6cefe87c6b07aa01896930a525a19bdf",
     "url": "/Portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/css/2.7e009a7e.chunk.css"
   },
   {
-    "revision": "a8e21ade908474ab4d35",
+    "revision": "69680468e858102a9275",
     "url": "/Portfolio/static/css/main.6054cf64.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/js/2.c866655e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a8e21ade908474ab4d35",
-    "url": "/Portfolio/static/js/main.b8428b4f.chunk.js"
+    "revision": "69680468e858102a9275",
+    "url": "/Portfolio/static/js/main.f3780b91.chunk.js"
   },
   {
     "revision": "bbf9f513ca94ccde67a9",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/ATO.1592d57d.jpg"
   },
   {
-    "revision": "159e3aed9e47dfec6464bc5bfde67611",
-    "url": "/Portfolio/static/media/BahaeddinDabbaghResume.159e3aed.pdf"
+    "revision": "f226ae211e5083845c90d2e0516e9bb9",
+    "url": "/Portfolio/static/media/BahaeddinDabbaghResume.f226ae21.pdf"
   },
   {
     "revision": "2fdbb58545dd6e09fb12a1db293531c3",
